@@ -1,0 +1,8 @@
+sources:
+      - name: raw_data
+        description: All Raw data for dbt from snowflake in this schema.
+        database: books_db
+        schema: raw
+        tables:
+            - name: books_raw
+              description: Books data from all years starting from 2014 to 2023.
